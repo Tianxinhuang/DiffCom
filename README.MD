@@ -1,14 +1,14 @@
 # DiffCom
 
 > Unified Geometry and Color Compression Framework for Point Clouds via Generative Diffusion Priors  
-> 3DV 2026 • [Project Page](https://tianxinhuang.github.io/)
+> 3DV 2026
 
 ## Overview
 DiffCom injects generative diffusion priors into point-cloud compression, jointly optimizing geometry and color. It supports textured/textureless assets, enabling bitrate–distortion trade-offs across compression levels 1–9.
 
 ## Prerequisites
 - **OS**: Ubuntu 20.04/22.04 (tested), macOS for orchestration only  
-- **GPU**: ≥16 GB VRAM (A4000 or better recommended)  
+- **GPU**: Larger than 16GB VRAM (A4000 or better recommended)  
 - **CUDA**: 12.4 (match with Torch 2.6.0 wheels)  
 - **Python**: 3.10.13 (Conda environment suggested)
 
@@ -46,9 +46,8 @@ DiffCom injects generative diffusion priors into point-cloud compression, jointl
    ```
 
 ## Datasets & Checkpoints
-- **Evaluation data**: [HuggingFace – DiffCom_Data](https://huggingface.co/datasets/huangtx/Diffcom_Data/tree/main)  
-- **Pretrained models**: Automatically cached under `point_e_model_cache/`.  
-  - To sidestep throttled downloads, place checkpoints manually in this folder with matching filenames.
+- **Data**: [DiffCom_Data](https://huggingface.co/datasets/huangtx/Diffcom_Data/tree/main)  
+- **Pretrained models**: Automatically cached under `point_e_model_cache/` following [Point-E](https://openai.com/index/point-e/).
 
 ## Quick Start
 Navigate to `Diffcom/point_e` and prepare:
