@@ -1,0 +1,7 @@
+setup.py
+/root/sfs/point-e/point_e/ChamferDistancePytorch/chamfer6D/chamfer6D.cu
+/root/sfs/point-e/point_e/ChamferDistancePytorch/chamfer6D/chamfer_cuda.cpp
+chamfer_6D.egg-info/PKG-INFO
+chamfer_6D.egg-info/SOURCES.txt
+chamfer_6D.egg-info/dependency_links.txt
+chamfer_6D.egg-info/top_level.txt
